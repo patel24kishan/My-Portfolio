@@ -9,6 +9,7 @@ export const Bio = {
   resume_softwaredeveloper:
     "https://drive.google.com/file/d/1IDqMwEJxBzXq9XgQcefFmeDTMmLGUlZl/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kkishan2409/",
+  email: "kishankahodariya.work@gmail.com",
   twitter: "",
   itchio: "https://ghosts24.itch.io/",
   discord: "",

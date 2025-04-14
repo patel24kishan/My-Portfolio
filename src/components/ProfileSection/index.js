@@ -30,7 +30,7 @@ const Profile=()=>{
                             </Span>
                         </TextLoop>
                         <Description>{Bio.description}</Description>
-                        <ResumeButton href={Bio.resume_gamedeveloper} target="_blank">Resume</ResumeButton>
+                        <ResumeButton href={Bio.linkedin} target="_blank"> View Profile</ResumeButton>
                     </ProfileLeftContainer>
                     <ProfileRightContainer>
                                 <ProfileImg src={ProfileImage} alt="Profile"/>
