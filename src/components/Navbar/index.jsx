@@ -53,7 +53,7 @@ const Navbar=()=>{
             </NavItems>
             <ButtonContainer>
 
-                <GitHubButton href={Bio.email}>Contact</GitHubButton>
+                <GitHubButton href={Bio.github}>Github</GitHubButton>
             </ButtonContainer>
         {
             open && 
