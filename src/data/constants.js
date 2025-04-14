@@ -177,6 +177,24 @@ export const experiences = [
   },
   {
     id: 1,
+    img: "https://helpusdefend.com/wp-content/uploads/2023/05/cropped-DEFEND_3D_logo_with_glow-1.png",
+    role: "Game Developer",
+    company: "HelpUpDefend",
+    date: "Dec 2024 - Feb 2025",
+    desc: "Worked in fully remote team environment developing gamified AR activities for their Unity-based social media platform, 65Square, serving 1,000+ Android/iOS users.",
+    skills: [
+      "Unity",
+      "C#",
+      "Agora SDK",
+      "Git",
+      "Zenject",
+      "Postman",
+      "Unity Plugins"
+    ],
+    doc: "",
+  },
+  {
+    id: 2,
     img: "https://www.svgrepo.com/show/349407/ibm.svg",
     role: "Application Developer",
     company: "IBM Canada",
@@ -194,7 +212,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://media.licdn.com/dms/image/C560BAQFi2lc_IOfaGQ/company-logo_200_200/0/1656594783502/achievers_logo?e=1717027200&v=beta&t=BJrwNA3XKPSsOK7E8HB5g2zMJnVQdIpoNJmKIWfEfqc",
     role: "Software Developer Intern",
     company: "Achievers",
@@ -204,7 +222,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 4,
     img: "https://media.glassdoor.com/sql/1759068/escrow-infotech-squarelogo-1559125938891.png",
     role: "Game Developer",
     company: "Xsquad Studios by Escrow Infotech",
