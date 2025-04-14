@@ -6,7 +6,6 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Icon, Tooltip } from "@mui/material";
-import { GitHub } from "@mui/icons-material/GitHub";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -110,11 +109,6 @@ const Footer = () => {
 
              </Tooltip>
 
-             <Tooltip title="Github">
-                <SocialMediaIcon href={Bio.github} target="display">
-                <GitHubIcon />
-            </SocialMediaIcon>
-            </Tooltip>
 
             <Tooltip title="Linkedin">
                 <SocialMediaIcon href={Bio.linkedin} target="display">
