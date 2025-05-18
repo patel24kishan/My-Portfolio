@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Kishan",
-  roles: ["Developer", "Programmer", "Engineer", "Freelancer"],
+  roles: ["a Game Developer", "a Software Programmer", "Cloud Engineer", "a Freelancer"],
   description:
     "Creative game developer with one year of experience at India’s leading game studio, with published titles to showcase. Experienced backend developer at IBM Canada's Hybrid Cloud Development team with migrating applications to cloud and proficient in Java, Spring Boot, and Python. Passionate about game mechanics, cloud gaming and problem-solving.",
   github: "https://github.com/patel24kishan",
