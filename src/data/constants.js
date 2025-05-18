@@ -5,7 +5,7 @@ export const Bio = {
     "Creative game developer with one year of experience at India’s leading game studio, with published titles to showcase. Experienced backend developer at IBM Canada's Hybrid Cloud Development team with migrating applications to cloud and proficient in Java, Spring Boot, and Python. Passionate about game mechanics, cloud gaming and problem-solving.",
   github: "https://github.com/patel24kishan",
   resume_gamedeveloper:
-    "https://drive.google.com/file/d/1H_zGKv3Rl-26HxC2E8JINnk__nqCGxu7/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Kzc-6hzSctd-IaQm2ZzqqNTH904x7bIZ/view?usp=sharing",
   resume_softwaredeveloper:
     "https://drive.google.com/file/d/1IDqMwEJxBzXq9XgQcefFmeDTMmLGUlZl/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kkishan2409/",
@@ -362,7 +362,7 @@ export const projects = [
     category: "Games",
     github: "",
     action: "https://apps.apple.com/us/app/kolor-it/id1477042251",
-    actionBtn: "App with similar mechanics",
+    actionBtn: "App Reference",
   },
 
   {

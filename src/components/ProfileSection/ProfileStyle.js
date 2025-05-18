@@ -202,3 +202,42 @@ export const ResumeButton = styled.a`
     } 
 
 `;
+
+export const ItchButton = styled.a`
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    width: 47.5%;      /* 50% of ItchButton's 95% */
+    max-width: 150px;  /* half of 300px */
+    text-align: center;
+    padding: 16px 0;
+    color: ${({ theme }) => theme.white};
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out !important;
+
+    background: transparent;
+    border: 2px solid ${({ theme }) => theme.white};
+
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.05);
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 0.4s ease-in-out;
+        background: rgba(255, 255, 255, 0.05);
+        border-color: ${({ theme }) => theme.white};
+        box-shadow: 0px 12px 35px rgba(255, 255, 255, 0.1);
+    }
+
+    @media (max-width: 640px) {
+        padding: 12px 0;
+        font-size: 18px;
+        max-width: 140px; /* adjust for smaller screens */
+    }
+`;
+
+
+

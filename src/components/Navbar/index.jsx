@@ -53,7 +53,7 @@ const Navbar=()=>{
             </NavItems>
             <ButtonContainer>
 
-                <GitHubButton href={Bio.github}>Github</GitHubButton>
+                <GitHubButton href={Bio.linkedin}>Contact</GitHubButton>
             </ButtonContainer>
         {
             open && 
@@ -84,7 +84,7 @@ const Navbar=()=>{
             }}>Education</MobileLink>
 
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.linkedin} target="_blank">
-                Contact
+                
             </GitHubButton>
             </MobileMenu> 
         }
