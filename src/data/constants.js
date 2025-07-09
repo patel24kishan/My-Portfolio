@@ -254,7 +254,7 @@ export const projects = [
     category: "Games",
    // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "YT",
-    actionBtn: "Play",
+    actionBtn: "Watch",
   }, 
    {
     id: -4,
@@ -267,7 +267,7 @@ export const projects = [
     category: "Games",
    // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "YT",
-    actionBtn: "Play",
+    actionBtn: "Watch",
   },
     {
     id: -3,
@@ -280,7 +280,7 @@ export const projects = [
     category: "Games",
    // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "YT",
-    actionBtn: "Play",
+    actionBtn: "Watch",
   },
  {
     id: -2,
@@ -293,7 +293,7 @@ export const projects = [
     category: "Games",
     github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "https://youtu.be/x_k_9Ft1_pk",
-    actionBtn: "Play",
+    actionBtn: "Watch",
   },
 
   {
@@ -307,7 +307,7 @@ export const projects = [
     category: "Games",
     github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "https://www.youtube.com/watch?v=Lp46QFgKyKM",
-    actionBtn: "Play",
+    actionBtn: "Watch",
   },
 
   //Unity Games
