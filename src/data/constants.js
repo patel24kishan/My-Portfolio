@@ -252,7 +252,7 @@ export const projects = [
     tags: ["Unreal", "C++", "Blueprint","AnimGraph",""],
     category: "unreal",
    // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
-    action: "YT",
+    action: "https://youtu.be/uojSqNUPAJc",
     actionBtn: "Watch",
   },
     {
@@ -265,8 +265,8 @@ export const projects = [
     tags: ["Unreal", "C++", "Blueprint","AnimGraph/BlendSpace","AI"],
     category: "unreal",
    // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
-    action: "YT",
-    actionBtn: "Watch",
+    action: "https://youtu.be/QlD0JzGOHkk",
+    actionBtn: "GamePlay",
   },
  {
     id: -2,
@@ -279,7 +279,7 @@ export const projects = [
     category: "unreal",
     github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "https://youtu.be/x_k_9Ft1_pk",
-    actionBtn: "Watch",
+    actionBtn: "GamePlay",
   },
 
   {
@@ -496,7 +496,7 @@ export const projects = [
   {
     id: 12,
     title: "My Portfolio",
-    date: "Present",
+    date: "2024",
     description:
       " Current Website was created from scratch using React, material-UI and deployed using GitHub Pages. ",
     image:
@@ -504,8 +504,8 @@ export const projects = [
     tags: ["ReactJs", "HTML", "CSS", "GitHub", "GitHub Pages", "Material-UI"],
     category: "webapp",
     github: "",
-    action: "<Link>",
-    actionBtn: "View Site",
+    action: "https://patel24kishan.github.io/My-Portfolio/",
+    actionBtn: "WEBSITE",
   },
 
   //Soft Apps
@@ -524,7 +524,7 @@ export const projects = [
       "Tailwind CSS"
     ],
     category: "webapp",
-    github: "https://github.com/patel24kishan/Hospital-Management-System",
+    github: "GH",
     action: "",
     actionBtn: "More",
   },
