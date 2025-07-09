@@ -12,27 +12,45 @@ import ProjectCard from "./ProjectCard";
 import { projects } from "../../data/constants";
 
 const Projects = () => {
-  const [projectToggle, setProjectToggle] = useState("Games");
+  const [projectToggle, setProjectToggle] = useState("unreal");
   return (
     <ProjectContainer id="projects">
       <Wrapper>
         <Title>Projects</Title>
 
         <ProjectToggleButtonGroup>
-          {projectToggle === "Games" ? (
+          {projectToggle === "unreal" ? (
             <ProjectToggleButton
               active
-              value="Games"
-              onClick={() => setProjectToggle("Games")}
+              value="unreal"
+              onClick={() => setProjectToggle("unreal")}
             >
-              Games
+              Unreal
             </ProjectToggleButton>
           ) : (
             <ProjectToggleButton
-              value="Games"
-              onClick={() => setProjectToggle("Games")}
+              value="unreal"
+              onClick={() => setProjectToggle("unreal")}
             >
-              Games
+              Unreal
+            </ProjectToggleButton>
+          )}
+
+          <ProjectDivider />
+          {projectToggle === "unity" ? (
+            <ProjectToggleButton
+              active
+              value="unity"
+              onClick={() => setProjectToggle("unity")}
+            >
+              Unity3D
+            </ProjectToggleButton>
+          ) : (
+            <ProjectToggleButton
+              value="unity"
+              onClick={() => setProjectToggle("unity")}
+            >
+              Unity3D
             </ProjectToggleButton>
           )}
 
@@ -43,30 +61,15 @@ const Projects = () => {
               active
               onClick={() => setProjectToggle("webapp")}
             >
-              Web App
+              Web Apps
             </ProjectToggleButton>
           ) : (
             <ProjectToggleButton onClick={() => setProjectToggle("webapp")}>
-              Web App
+              Web Apps
             </ProjectToggleButton>
           )}
           <ProjectDivider />
 
-          {projectToggle === "softwareapp" ? (
-            <ProjectToggleButton
-              active
-              onClick={() => setProjectToggle("softwareapp")}
-            >
-              Software App
-            </ProjectToggleButton>
-          ) : (
-            <ProjectToggleButton
-              onClick={() => setProjectToggle("softwareapp")}
-            >
-              Software App
-            </ProjectToggleButton>
-          )}
-          <ProjectDivider />
 
           {projectToggle === "all" ? (
             <ProjectToggleButton active onClick={() => setProjectToggle("all")}>
