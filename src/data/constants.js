@@ -19,7 +19,7 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Game Development Tools",
+    title: "Game Dev",
     skills: [
       {
         name: "Unity3D",
@@ -40,7 +40,17 @@ export const skills = [
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
       {
-        name: "Discord",
+        name: "Photon",
+        image:
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
+      {
+        name: "Unity Cloud",
+        image:
+          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      },
+      {
+        name: "SourceTree",
         image:
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
@@ -50,17 +60,22 @@ export const skills = [
     title: "Programming",
     skills: [
       {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
         name: "C#",
         image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "C++ (Beginner)",
+        name: "C++",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: ".NET",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
         name: "Java",
@@ -69,47 +84,7 @@ export const skills = [
     ],
   },
   {
-    title: "Frontend",
-    skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-    ],
-  },
-
-  {
-    title: "Testing",
-    skills: [
-      {
-        name: "JUnit",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Mockito",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-    ],
-  },
-  {
-    title: "Database",
+    title: "Backend",
     skills: [
       {
         name: "MySQL",
@@ -126,33 +101,48 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
+      {
+        name: "WebGL",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Javascript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "HTML",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
     ],
   },
   {
     title: "Cloud",
     skills: [
       {
-        name: "AWS",
+        name: "AWS (Amazon Web Services)",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "GCP",
+        name: "AZURE",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      {
-        name: "Kubernetes",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
     ],
   },
+  
 ];
 
 export const experiences = [
@@ -168,9 +158,6 @@ export const experiences = [
       "Blueprint",
       "C++",
       "MongoDB",
-      "Discord",
-      "Next Cloud",
-      "Wiki.js",
     ],
     doc: "",
   },
@@ -188,7 +175,6 @@ export const experiences = [
       "Git",
       "Zenject",
       "Postman",
-      "Unity Plugins"
     ],
     doc: "",
   },
@@ -262,7 +248,7 @@ export const projects = [
     date: "2025",
     description:
       "Shooting tank attack proximity tracking turrets with cool smoke animations. ",
-    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    image: "https://gamesbeat.com/wp-content/uploads/2025/05/world-of-tanks-20.jpg",
     tags: ["Unreal", "C++", "Blueprint","AnimGraph",""],
     category: "unreal",
    // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
@@ -275,7 +261,7 @@ export const projects = [
     date: "2025",
     description:
       "Immersive first-person quest with dynamic puzzles, powered by Unreal’s GAS, Lumen lighting, and custom C++ mechanics.",
-    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    image: "https://miro.medium.com/v2/resize:fit:1200/0*CME_fwKZ7g75TRuj.jpg",
     tags: ["Unreal", "C++", "Blueprint","AnimGraph/BlendSpace","AI"],
     category: "unreal",
    // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
@@ -288,7 +274,7 @@ export const projects = [
     date: "2025",
     description:
       "A console-ready shooting Chaos offering dynamic movements, fluid combat, and reactive AI.",
-    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    image: "https://gameassetsfree.com/assets/105953-invector-shooter-cover-add-on-0-8-unity/105953-invector-shooter-cover-add-on-0-8-unity.webp",
     tags: ["Unreal", "C++", "Blueprint","AnimGraph/BlendSpace","AI"],
     category: "unreal",
     github: "https://github.com/patel24kishan/FPS-Target-Shooter",
