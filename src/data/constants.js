@@ -30,7 +30,7 @@ export const skills = [
         image: "",
       },
       {
-        name: "Adobe Photoshop",
+        name: "AR/VR",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
       },
@@ -50,7 +50,7 @@ export const skills = [
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
       {
-        name: "SourceTree",
+        name: "Git",
         image:
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
       },
