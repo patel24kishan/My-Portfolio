@@ -318,9 +318,9 @@ export const projects = [
     title: "OuiChef - Multiplayer",
     date: "Jan 2024 - Apr 2024",
     description:
-      "Developed the multiplayer mode on the Unity Netcode framework with Unity Cloud and Leveraged Unity Cloud's Lobby and Relay services to connect players worldwide ",
+      " ",
     image:
-      "https://files.ably.io/ghost/prod/2022/06/multiplayer-unity-game-with-ably.png",
+      "",
     tags: [
       "Unity",
       "C#",
@@ -339,20 +339,19 @@ export const projects = [
 
   {
     id: 1,
-    title: "OuiChef- Single Player",
-    date: "Dec 2023 - Jan 2024",
+    title: "OuiChef",
+    date: "Dec 2023 - Mar 2024",
     description:
-      "Simple recipe-based cooking 3D game with time-based challenges which supports PC and Gamepad.",
+      "Multiplayer cookoff with single palyer mode offering time-based challenges for PC.",
     image:
-      "https://img.itch.zone/aW1nLzE1MjEwMTEyLnBuZw==/315x250%23c/kYBt9U.png",
+      "https://files.ably.io/ghost/prod/2022/06/multiplayer-unity-game-with-ably.png",
     tags: [
       "Unity",
       "C#",
       "Cinemachine",
-      "Photoshop",
-      "Git",
-      "Shaders",
-      "Unity I/O System",
+      "Netcode",
+      "Unity Cloud",
+      "Addressables",
     ],
     category: "Games",
     github: "https://github.com/patel24kishan/OuiChef-SinglePlayer",
@@ -376,6 +375,7 @@ export const projects = [
       "Git",
       "Unity Input System",
     ],
+
     category: "Games",
     github: "https://github.com/patel24kishan/Crate-Ninja",
     action: "https://ghosts24.itch.io/fruit-punch",
@@ -407,7 +407,7 @@ export const projects = [
 
   {
     id: 4,
-    title: "Color it All",
+    title: "Paint it 3D",
     date: "Sept 2019 - Dec 2019",
     description:
       "3D mobile game where players collect stars and paint a blank canvas with precision within various shapes for an enjoyable experience.",
