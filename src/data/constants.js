@@ -312,31 +312,6 @@ export const projects = [
 
   //Unity Games
 
- 
-  {
-    id: 0,
-    title: "OuiChef - Multiplayer",
-    date: "Jan 2024 - Apr 2024",
-    description:
-      " ",
-    image:
-      "",
-    tags: [
-      "Unity",
-      "C#",
-      "Cinemachine",
-      "Photoshop",
-      "Git",
-      "Unity Input System",
-      "Netcode",
-      "AWS",
-    ],
-    category: "Games",
-    github: "",
-    webapp: "",
-    action: "",
-  },
-
   {
     id: 1,
     title: "OuiChef",
