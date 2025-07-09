@@ -241,7 +241,60 @@ export const experiences = [
 ];
 //Project category: Games, webapp, softwareapp, all
 export const projects = [
-  //Unity Games
+
+   //Unreal Games
+   {
+    id: -4,
+    title: "3D Platformer",
+    date: "2025",
+    description:
+      "Learned level design with fun obstacles and engaging gameplay. ",
+    image: "https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/7b14ef24-483c-43a6-a0a8-e6b3acd3a75c_scaled.jpg",
+    tags: ["Unreal", "C++", "Blueprint"],
+    category: "Games",
+   // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
+    action: "YT",
+    actionBtn: "Play",
+  }, 
+   {
+    id: -4,
+    title: "Tank it",
+    date: "2025",
+    description:
+      "Shooting tank attack proximity tracking turrets with cool smoke animations. ",
+    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    tags: ["Unreal", "C++", "Blueprint","AnimGraph",""],
+    category: "Games",
+   // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
+    action: "YT",
+    actionBtn: "Play",
+  },
+    {
+    id: -3,
+    title: "Quest Raider",
+    date: "2025",
+    description:
+      "Immersive first-person quest with dynamic puzzles, powered by Unreal’s GAS, Lumen lighting, and custom C++ mechanics.",
+    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    tags: ["Unreal", "C++", "Blueprint","AnimGraph/BlendSpace","AI"],
+    category: "Games",
+   // github: "https://github.com/patel24kishan/FPS-Target-Shooter",
+    action: "YT",
+    actionBtn: "Play",
+  },
+ {
+    id: -2,
+    title: "Third Person Shooter",
+    date: "2025",
+    description:
+      "A console-ready shooting Chaos offering dynamic movements, fluid combat, and reactive AI.",
+    image: "https://img.freepik.com/free-photo/3d-rendering-arrow-hitting-target_23-2151266483.jpg",
+    tags: ["Unreal", "C++", "Blueprint","AnimGraph/BlendSpace","AI"],
+    category: "Games",
+    github: "https://github.com/patel24kishan/FPS-Target-Shooter",
+    action: "https://youtu.be/x_k_9Ft1_pk",
+    actionBtn: "Play",
+  },
 
   {
     id: -1,
@@ -254,9 +307,12 @@ export const projects = [
     category: "Games",
     github: "https://github.com/patel24kishan/FPS-Target-Shooter",
     action: "https://www.youtube.com/watch?v=Lp46QFgKyKM",
-    actionBtn: "View",
+    actionBtn: "Play",
   },
 
+  //Unity Games
+
+ 
   {
     id: 0,
     title: "OuiChef - Multiplayer",
@@ -493,7 +549,26 @@ export const projects = [
 
   //Soft Apps
   {
-    id: 13,
+      id: 13,
+    title: "Crypto Tracker",
+    date: "May 2024",
+    description:
+      "Crypto Tracker is a React application to get to know about various Crypto currenccies along with their details and userful information. In addition to that, user can also visulize the price variation over time perio using graphs, and provides various useful links to know more about the currencies. Application is developed using React components, React Queries, Tailwind CSS, ReCharts, React-icons and Material UI.",
+    image:
+      "https://i.pinimg.com/originals/6e/12/6a/6e126a9ace040280e45f8144cf0cb2c8.jpg",
+    tags: [
+      "React",
+      "ReChart",
+      "ReactQuery",
+      "Tailwind CSS"
+    ],
+    category: "softwareapp",
+    github: "https://github.com/patel24kishan/Hospital-Management-System",
+    action: "",
+    actionBtn: "More",
+  },
+  {
+    id: 14,
     title: "My Digital Locker",
     date: "Sept 2021 - Dec 2021",
     description:
@@ -516,24 +591,21 @@ export const projects = [
     actionBtn: "More",
   },
 
+  
+
   {
-    id: 14,
+    id: 15,
     title: "Hospital Management System",
     date: "May 2021 - Aug 2021",
     description:
-      "Created a Java-based application, adhering to High Cohesion-Low Coupling approach, SOLID principles, and Agile framework.",
+      "A full-stack application to manage hospital inventory based on SOLID principles, and Agile framework.",
     image:
       "https://i.pinimg.com/originals/6e/12/6a/6e126a9ace040280e45f8144cf0cb2c8.jpg",
     tags: [
       "Java",
+      "Springboot",
+      "Hibernate/JPA",
       "JUnit",
-      "Jira",
-      "Git",
-      "GitLab",
-      "Mockito",
-      "MySQL",
-      "CI / CD",
-      "Heroku",
     ],
     category: "softwareapp",
     github: "https://github.com/patel24kishan/Hospital-Management-System",
