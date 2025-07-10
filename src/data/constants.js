@@ -5,7 +5,7 @@ export const Bio = {
     "As creative developer focused on building engaging gameplay systems and interactive experiences. I’m passionate about creating memorable experiences and exploring new ideas in Gaming as a Services, Cloud Gaming, and AR.",
   github: "https://github.com/patel24kishan",
   resume_gamedeveloper:
-    "https://drive.google.com/file/d/1Kzc-6hzSctd-IaQm2ZzqqNTH904x7bIZ/view?usp=sharing",
+    "https://drive.google.com/file/d/1S5b_6PfrsLJlioTRo7EZbpLrTOmo26Ma/view?usp=sharing",
   resume_softwaredeveloper:
     "https://drive.google.com/file/d/1IDqMwEJxBzXq9XgQcefFmeDTMmLGUlZl/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/kkishan2409/",
