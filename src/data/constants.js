@@ -299,6 +299,41 @@ export const projects = [
   //Unity Games
 
   {
+    id: 0,
+    title: "Scarfall",
+    date: "2019-2020",
+    description:
+      "Developed scalable cloud-backed services and gameplay systems for ScarFall 2.0 Mobile title.",
+    image: "https://static.wixstatic.com/media/5e090e_76eb56db0ec04d30a913efe32280fe61~mv2.jpg/v1/fill/w_196,h_196,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/scarfall-logo.jpg",
+    tags: ["Unity", "C#", "Photon", "Unity Cloud"],
+    category: "unity",
+    github: "",
+    action: "https://scarfall.in/",
+    actionBtn: "Play",
+  },
+   {
+    id: 2,
+    title: "Dating Square",
+    date: "Dec 2024 - Mar 2025",
+    description:
+      "Developd Agora-based chat feature for 65Square, a privacy-focused social media platform with 1,000+ Android/iOS users. ",
+    image:
+      "https://helpusdefend.com/wp-content/uploads/2023/07/datingsquare_on-white-1-300x300.jpg",
+    tags: [
+    "Mobile",
+      "Unity",
+      "C#",
+      "Agora",
+      "Git",
+    ],
+    category: "unity",
+    github: "",
+    action:
+      "https://helpusdefend.com/?page_id=7341",
+    actionBtn: "Watch",
+  },
+
+  {
     id: 1,
     title: "OuiChef",
     date: "Dec 2023 - Mar 2024",
